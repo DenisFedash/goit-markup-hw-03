@@ -6,6 +6,8 @@
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .link {
@@ -26,6 +28,13 @@
 
 .page-header {
   background-color: #ffffff;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
 }
 
 /* -------------------Logo--------------------- */
@@ -79,7 +88,12 @@
 
 /* -------------------------Hero---------------------- */
 
+.hero {
+  text-align: center;
+}
 .hero .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: #ffffff;
 
   font-weight: 900;
@@ -90,6 +104,12 @@
 }
 
 .button-primary {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
   background-color: var(--accent-color);
   color: #ffffff;
 
@@ -116,8 +136,25 @@
 
 /* ---------------------------Phylosophy---------------------- */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .philosophy-list .title {
   color: var(--title-text-color);
+}
+
+.philosophy-title {
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .philosophy-list .philosophy-title {
@@ -128,6 +165,8 @@
 }
 
 .philosophy-list .philosophy-text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -136,9 +175,14 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+
+  text-align: center;
 }
 
 /* ----------------------------Team--------------------------- */
+
+/* .padding-top
+.padding-bottom */
 
 .team-list .title {
   color: var(--title-text-color);
@@ -206,6 +250,11 @@
   cursor: pointer;
   background-color: #f5f4fa;
   color: var(--title-text-color);
+
+  border: 1px solid transparent;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
 
   font-weight: 500;
   font-size: 16px;
