@@ -1,0 +1,237 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.button {
+  font-family: inherit;
+}
+
+.page {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.page-header {
+  background-color: #ffffff;
+}
+
+/* -------------------Logo--------------------- */
+
+.nav .nav-logo {
+  color: #000000;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.nav-logo .nav-logo-two {
+  color: var(--accent-color);
+}
+
+/* ---------------------Site-nav----------------- */
+
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* ---------------------Contacts-------------------- */
+
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* -------------------------Hero---------------------- */
+
+.hero .hero-title {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.button-primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #188ce8;
+}
+
+/* ------------------------------Section-------------------- */
+
+.section .section-title {
+  color: var(--title-text-color);
+}
+
+.section-team {
+  background-color: #f5f4fa;
+}
+
+/* ---------------------------Phylosophy---------------------- */
+
+.philosophy-list .title {
+  color: var(--title-text-color);
+}
+
+.philosophy-list .philosophy-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.philosophy-list .philosophy-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* ----------------------------Team--------------------------- */
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+.team-list .team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-list .team-text {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* ------------------------------Footer---------------------------- */
+
+.footer {
+  background-color: #2f303a;
+}
+
+/* -----------------------------Footer logo----------------------- */
+.footer-list .footer-logo {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+}
+
+.footer-logo .footer-logo-two {
+  color: #ffffff;
+}
+
+/* ----------------------------Footer nav------------------------ */
+.footer .footer-address {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.footer .footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+.footer .footer-mail:hover,
+.footer .footer-mail:focus {
+  color: var(--accent-color);
+}
+
+.footer .footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+.footer .footer-tel:hover,
+.footer .footer-tel:focus {
+  color: var(--accent-color);
+}
+
+/* -----------------------------Portfolio-------------------------- */
+
+/* -----------------------------Buttons---------------------------- */
+
+.buttons {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* -----------------------------Images------------------------------ */
+
+.image .image-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.image .image-text {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
