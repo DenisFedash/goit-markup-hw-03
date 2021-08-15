@@ -2,12 +2,13 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --background-color: #e5e5e5;
+  --background-color: #ffffff;
 }
 
 .list {
   padding: 0;
   margin: 0;
+
   list-style: none;
 }
 .link {
@@ -27,7 +28,7 @@
 }
 
 .page-header {
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .container {
@@ -94,7 +95,7 @@
 .hero .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #ffffff;
+  color: var(--background-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -132,6 +133,11 @@
 
 .section-team {
   background-color: #f5f4fa;
+}
+
+.section.section-nopadding {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* ---------------------------Phylosophy---------------------- */
@@ -177,13 +183,20 @@
   line-height: 1.17;
 
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 /* ----------------------------Team--------------------------- */
 
-/* .padding-top
-.padding-bottom */
+.section-team {
+  padding-top: 184px;
+  padding-bottom: 94px;
+}
 
+.section-team {
+  background-color: #f5f4fa;
+}
 .team-list .title {
   color: var(--title-text-color);
 }
@@ -192,11 +205,25 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .team-list .team-text {
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.team-list > .item {
+  padding-top: 0;
+  padding-bottom: 108px;
+  background-color: var(--background-color);
+}
+.image {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 /* ------------------------------Footer---------------------------- */
