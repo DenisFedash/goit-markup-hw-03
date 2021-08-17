@@ -18,35 +18,36 @@
     <body class="page">
         <!-- Шапка -->
         <header class="page-header">
-            <nav class="nav">
-                <!-- Лого -->
-                <a href="./index.html" class="nav-logo link"><span class="nav-logo-two">Web</span>Studio</a>
+            <div class="main-nav">
+                <nav class="nav container">
+                    <!-- Лого -->
+                    <a href="./index.html" class="nav-logo link"><span class="nav-logo-two">Web</span>Studio</a>
     
                     <!-- Навигация на другие страницы -->
                     <ul class="site-nav list">
-                        <li>
+                        <li class="item">
                             <a class="link" href="./index.html">Студия</a>
                         </li>
-                        <li>
+                        <li class="item">
                             <a class="link current" href="./portfolio.html">Портфолио</a>
                         </li>
-                        <li>
-                            <a class="link" href="" >Контакты</a>
+                        <li class="item">
+                            <a class="link" href="">Контакты</a>
                         </li>
                     </ul>
-            </nav>
-    
-            <!-- Контакты -->
-            <ul class="contacts list">
-                <li lang="en"><a href="" class="link">info@devstudio.com</a></li>
-                <li><a href="" class="link">+38 096 111 11 11</a></li>
-            </ul>
+                    <!-- Контакты -->
+                    <ul class="contacts list">
+                        <li class="item" lang="en"><a href="" class="link">info@devstudio.com</a></li>
+                        <li class="item"><a href="" class="link">+38 096 111 11 11</a></li>
+                    </ul>
+                </nav>      
+            </div>
         </header>
     <main class="page">
-        <section>
+        <section class="container">
             <!-- Разделы -->
-            <h1>Фильтр на страницу</h1>
-            <ul class="list">
+            <h1 class="visually-hidden">Фильтр на страницу</h1>
+            <ul class="list-button list">
                     <li>
                         <button type="button" class="button buttons">Все</button>                        
                     </li>
@@ -64,47 +65,47 @@
                     </li>
                 </ul>        
             <ul class="image list">
-                <li>
+                <li class="item">
                     <img src="./Images/second-page/laptop.jpg" alt="Экран ноутбука" width="370" height="294">
                     <h2 class="image-title">Технокряк</h2>
                     <p class="image-text">Веб-сайт</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./Images/second-page/basketball.jpg" alt="<Постер баскетбольного матча" width="370" height="294">
                     <h2 class="image-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                     <p class="image-text">Дизайн</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./Images/second-page/fish.jpg" alt="<Логотип ресторана" width="370" height="294">
                     <h2 class="image-title">Ресторан <span lang="en">Seafood</span></h2>
                     <p class="image-text">Приложение</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./Images/second-page/headphones.jpg" alt="<Картинка с наушниками" width="370" height="294">
                     <h2 class="image-title">Проект <span class="en">Prime</span></h2>
                     <p class="image-text">Маркетинг</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./Images/second-page/blocks.jpg" alt="<Большая и маленькая коробка" width="370" height="294">
                     <h2 class="image-title">Проект <span lang="en">Boxes</span></h2>
                     <p class="image-text">Приложение</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./Images/second-page/monitor.jpg" alt="<Экран монитора" width="370" height="294">
                     <h2 lang="en" class="image-title">Inspiration has no Borders</h2>
                     <p class="image-text">Веб-сайт</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./Images/second-page/book.jpg" alt="<Развернутая книга" width="370" height="294">
                     <h2 class="image-title">Издание <span lang="en">Limited Edition</span></h2>
                     <p class="image-text">Дизайн</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./Images/second-page/label.jpg" alt="<Этикетка" width="370" height="294">
                     <h2 class="image-title">Проект <span lang="en">LAB</span></h2>
                     <p class="image-text">Маркетинг</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./Images/second-page/typing.jpg" alt="<Руки печатают на ноутбуке" width="370" height="294">
                     <h2 lang="en" class="image-title">Growing Business</h2>
                     <p class="image-text">Приложение</p>
@@ -115,25 +116,28 @@
     
     <!-- Футер -->
     <footer class="footer">
-        <ul class="footer-list list">
-            <li><a href="./index.html" class="footer-logo link">Web<span class="footer-logo-two">Studio</span></a></li>
-            <li>
-                <address class="footer-address">
-                    г. Киев, пр-т Леси Украинки, 26
-                </address>
-            </li>
-            <li>
-                <address>
-                    <a href="mailto:info@example.com" class="footer-mail link">info@example.com</a>
-                </address>
-            </li>
-            <li>
-                <address>
-                    <a href="tel:+380991111111" class="footer-tel link">+38 099 111 11 11</a>
-                </address>
-            </li>
-        </ul>
-    </footer>
-    
+        <div class="container">
+            <ul class="footer-list list">
+                <li>
+                    <a href="./index.html" class="footer-logo link">Web<span class="footer-logo-two">Studio</span></a>
+                </li>
+                <li>
+                    <address class="footer-address">
+                        г. Киев, пр-т Леси Украинки, 26
+                    </address>
+                </li>
+                <li>
+                    <address class="footer-mail">
+                        <a href="mailto:info@example.com" class="footer-mail link">info@example.com</a>
+                    </address>
+                </li>
+                <li>
+                    <address class="footer-tel">
+                        <a href="tel:+380991111111" class="footer-tel link">+38 099 111 11 11</a>
+                    </address>
+                </li>
+            </ul>
+        </div>
+    </footer>    
 </body>
 </html>
